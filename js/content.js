@@ -89,7 +89,7 @@ window.PORTFOLIO = {
           stack: ['LLM', 'Prompt Engineering', 'AI System Engineering', 'Next.js', 'React', 'TypeScript', 'Payload CMS', 'PostgreSQL', 'Playwright'],
         },
         {
-          title: 'BTC Website & Bilingual AI Chatbot',
+          title: 'BTC Website & AI Chatbot',
           url: 'https://btc.com.sa',
           ai: 'Refined its system prompt for clearer answers and lower token usage.',
           tags: [],
