@@ -43,7 +43,7 @@ window.PORTFOLIO = {
       tools: ['Prompt engineering', 'RAG', 'Vector databases', 'Qdrant', 'Hybrid search', 'LangChain', 'NLP'] },
     { title: 'AI Workflow Automation',
       text: 'Automated workflows that remove repetitive, manual follow-up from teams.',
-      tools: ['n8n', 'Power Automate', 'Copilot Studio', 'AI agents'] },
+      tools: ['n8n', 'Power Automate', 'Copilot Studio'] },
     { title: 'Data Analytics & BI',
       text: 'Cleaning and merging data, then turning it into dashboards that drive decisions.',
       tools: ['Power BI', 'Looker Studio', 'Excel', 'SQL', 'Python', 'Pandas'] },
