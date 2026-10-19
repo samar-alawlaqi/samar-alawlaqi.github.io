@@ -183,7 +183,7 @@ window.PORTFOLIO = {
         'Integrated LLMs with prompt engineering to generate context-aware answers grounded in the retrieved documents, with source citations.',
         'Designed a modular FastAPI backend that supports multi-document retrieval and document comparison.',
       ],
-      stack: ['Python', 'FastAPI', 'LangChain', 'Qdrant', 'Sentence Transformers', 'LLM APIs', 'Docker'],
+      stack: ['Python', 'FastAPI', 'LangChain', 'Qdrant', 'LLM APIs', 'Docker'],
     },
     {
       title: 'News Automation: AI Daily Brief',
