@@ -32,15 +32,12 @@
   // ---------- hero ----------
   $('#hero-intro').innerHTML = esc(P.hero.intro).replace(esc(P.hero.highlight), '<strong>' + esc(P.hero.highlight) + '</strong>');
 
-  // facts strip: current role, education, certificates (all derived from content)
+  // facts strip: current role, education (derived from content)
   var current = P.experience[0];
   var edu = P.experience.filter(function (x) { return /bachelor|master|degree/i.test(x.role); })[0];
   var facts = [
     current && ['Currently', current.role, current.org],
     edu && ['Education', edu.role.replace(/^Bachelor of /, 'B.Sc. '), edu.org],
-    P.certificates.length && ['Certified', P.certificates.length + ' certificates', P.certificates.slice(0, 2).map(function (c) {
-      var m = c[0].match(/\(([^)]+)\)/); return m ? m[1] : c[0];
-    }).join(' · ')],
   ].filter(Boolean);
   $('#hero-facts').innerHTML = facts.map(function (f) {
     return '<div><dt>' + esc(f[0]) + '</dt><dd>' + esc(f[1]) + '<span>' + esc(f[2]) + '</span></dd></div>';
